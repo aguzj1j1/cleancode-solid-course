@@ -1,0 +1,30 @@
+STUPID SIGLAS
+S: Singleton --> patron singleton
+t: tigth coupling --> alto acomplamiento
+u: Untestability--> codigo no probable (unit test)
+p: premature optimization--> optimizaciones prematuras
+i: indescriptive naming --> nombres poco descriptivos
+d: duplication --> duplicidad de código, no aplicar el principio dryaa
+
+
+singleton
+singleton --> garantiza una unica instancia de la clase a lo largo de toda la aplicación
+contras --> * vive en el contexto global
+            * Puede ser modificado por cualquiera y en cualquier momento
+            * No es rastreable
+            * dificil de testear debido a su ubicación 
+tigth coupling --> lo ideal es tener bajo acomplamiento y buena cohesión
+desventajas --> * Un cambio en un modulo por lo general provoca un efecto domino de los cambios en otros modulos
+                * El ensamblaje de modulos pueden requerir más esfuerzo y/o tiempo debido a la mayor depedencia entre modulos
+                * un modulo en particular puede ser más dificil de reutilizar y/o probar porque se deben incluir modulos dependientes
+
+funcional
+                * LA COHESIÓN SE REFIERE A LO QUE LA CLASE (O MODULO) PUEDE HACER
+                * la baja cohesión significaría que la clase realiza una gran variedad de acciones: es amplia, no se enfoca en lo que debe hacer
+                * alta cohesión significa que la clase se enfoca en l oque debería estar haciendo, es decir, 
+                  solo metodos relaciones con la intención de la clase
+                
+                Se refiere a cuán relacionadas o dependientes son dos clase o modulos entre sí 
+                * En bajo acomplamiento, cambiar algo importante en una clase no debería afectar a la otra
+                * En alto acomplamiento, dificultaría el cambio y el mantenimiento de su código; dado que las clases están muy unidad, hacer un 
+                cambio podría requerir una renovación completa del sistema
