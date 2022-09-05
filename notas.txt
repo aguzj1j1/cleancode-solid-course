@@ -28,3 +28,31 @@ funcional
                 * En bajo acomplamiento, cambiar algo importante en una clase no debería afectar a la otra
                 * En alto acomplamiento, dificultaría el cambio y el mantenimiento de su código; dado que las clases están muy unidad, hacer un 
                 cambio podría requerir una renovación completa del sistema
+
+Untestability --> código no testeable
+                * código con alto acomplamiento
+                * Código con muchas dependencias no inyectadas
+                * Dependencias en el contexto global (Tipo Singleton)
+              ***DEBEMOS TENER PENSADAS LAS PRUEBAS DESDE LA CREACIÓN DEL CÓDIGO***
+  Optimizaciones prematuras
+  * Mantener abierta las opciones retrasando la toma de decisiones nos permite darle mayor relevancia a lo que más importante en una aplicacion
+  * No debemos anticiparnos a los requisitos y desarrollar abstracciones innecesarias que puedan añadir complejidad accidental
+  
+  
+
+S – Single Responsibility Principle (SRP) : Responsabilidad única
+ 
+O – Open/Closed Principle (OCP) : Aberto y cerrado
+
+L – Liskov Substitution Principle (LSP) : Sustitución de liskov
+
+I – Interface Segregation Principle (ISP) segregacion de interfaz
+
+D – Dependency Inversion Principle (DIP): inversión de dependencias 
+
+
+Principio de inversón de dependencias
+* los modulos de alto nivel no deberían depender de modulos de bajo nivel
+* ambos deberían depender de abstracciones
+* las abstracciones no deberían depender de detalles
+* los detalles deberían depender de abstracciones
